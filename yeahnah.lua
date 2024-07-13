@@ -918,7 +918,7 @@ function Library:create(options)
 
 	rawset(mt, "creditsContainer", creditsTab.container)
 
-	creditsTab:credit{Name = "", Description = "Contanct me if there is any problems ----->", Discord = "zbfl", PasteBin = "zbfl"}
+	creditsTab:credit{Name = "", Description = "Contact me if there is any problems ----->", Discord = "zbfl", PasteBin = "zbfl"}
 	creditsTab:credit{Name = "Repository", Description = "UI Library Repository", Github="https://github.com/deeeity/mercury-lib/blob/master/src.lua"}
 
 	return mt
